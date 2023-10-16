@@ -1,5 +1,9 @@
+import random
+
 #Respostas dos níveis e suas respectivas dicas
 palavras_dicas = [["Eclipse","Astronomia"],["Risoto","Gastronomia"],["Balsa","Transporte"],["Python", "Linguagem de Programação"], ["Impressora", "Dispositivo"]]
+#Aleatoriza os elementos da lista anterior
+random.shuffle(palavras_dicas)
 letras_digitadas = []
 vidas = 6
 nivel = 0
